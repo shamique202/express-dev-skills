@@ -1,9 +1,9 @@
 // The ids can be generated using:
 // Date.now() % 1000000
 const skills = [
-    { id: 125223, skill: 'Application Development', learned: true },
-    { id: 127904, skill: 'Web Design', learned: true },
-    { id: 139608, skill: 'Database Design', learned: false }
+    { id: 125223, skill: 'Application Development', done: true },
+    { id: 127904, skill: 'Web Design', done: false },
+    { id: 139608, skill: 'Database Design', done: false }
 ];
 
 module.exports = {
